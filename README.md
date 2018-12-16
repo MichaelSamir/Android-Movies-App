@@ -1,1 +1,2 @@
 # Android-Movies-App
+## Features
