@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="28dp"
+                android:textColor="#ffffff"
+                android:id="@+id/original_title_text_view"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center_vertical"
+                android:paddingLeft="32dp"
+                />
+
+            <ImageView
+                android:layout_width="70pt"
+                android:layout_height="87pt"
+                android:id="@+id/poster_image_view"
+                android:layout_below="@+id/original_title_text_view"
+                android:layout_marginLeft="32dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/release_date_text_view"
+                android:paddingTop="40dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@+id/original_title_text_view"
+                android:layout_toRightOf="@+id/poster_image_view"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vote_average_text_view"
+                android:layout_below="@+id/release_date_text_view"
+                android:layout_toRightOf="@+id/poster_image_view"
+                />
+
+            <Button
+                android:id="@+id/favourite_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vote_average_text_view"
+                android:layout_toRightOf="@+id/poster_image_view"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/overview_text_view"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_below="@+id/poster_image_view"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/trailers_label"
+                android:layout_below="@+id/overview_text_view"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/trailers_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/trailers_label"
+                android:paddingTop="15dp"></LinearLayout>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reviews_label"
+                android:layout_below="@+id/trailers_view"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/reviews_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/trailers_view"
+                android:paddingTop="15dp"></LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

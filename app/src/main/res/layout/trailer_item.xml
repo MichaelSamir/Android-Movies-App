@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/trailer_view"
+    android:textStyle="bold"
+    android:textSize="15dp"
+    android:drawableLeft="@drawable/play_icon">
+
+</Button>

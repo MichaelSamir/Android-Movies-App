@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_sort_label">Sort Movies By</string>
+    <string name="title_setting_activity">Settings</string>
+    <string name="title_fragment_detail_activity">Movie Details</string>
+
+
+    <string name="pref_sort_label_popular">Popular</string>
+    <string name="pref_sort_label_favourites">Favourite Movies</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_top_rated">Top Rated</string>
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_key" translatable="false">sort</string>
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_popular" translatable="false">popular</string>
+    <string name="pref_sort_favourites" translatable="false">favourites</string>
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_top_rated" translatable="false">top_rated</string>
+</resources>
